@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 5px dotted red;
+    width: 80vw;
+    height: 300px;
+
+}
+.child{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+.kochi{
+    background-color: burlywood;
+}
+@media only screen and (max-width: 688) {
+
+    .child{
+        grid-template-columns: repeat(1 ,1fr);
+
+    }
+
+    
+}
+.opt{
+    background-color: rgb(168, 72, 72);
+}

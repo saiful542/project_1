@@ -1,0 +1,31 @@
+.bat{
+    margin: 0 20px;
+    border: 3px solid chartreuse;
+    display: scroll;
+    width: 500px;
+    /* transition: all  2s linear; */
+}
+.ball{
+    border:3px solid crimson;
+}
+
+.bat .bt{
+    height: 90%;
+    width: 90%;
+}
+
+
+.bat:hover .bt{
+    transform: rotate(-40deg);
+    transform-origin: top right  ;
+   
+    
+}
+.ball:hover .bl{
+   
+    transform: translate(10px 10px);
+    
+}
+.bt{
+    transition: transform 2s;
+}
